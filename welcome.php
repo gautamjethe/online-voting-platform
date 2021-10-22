@@ -9,6 +9,23 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 }
 
 ?>
+<script src="../assets/js/require.min.js"></script>
+    <script>
+      requirejs.config({
+          baseUrl: '.'
+      });
+    </script>
+    <!-- Dashboard Core -->
+    <link href="./assets/css/dashboard.css" rel="stylesheet" />
+    <script src="./assets/js/dashboard.js"></script>
+    <!-- c3.js Charts Plugin -->
+    <link href="./assets/plugins/charts-c3/plugin.css" rel="stylesheet" />
+    <script src="./assets/plugins/charts-c3/plugin.js"></script>
+    <!-- Google Maps Plugin -->
+    <link href="./assets/plugins/maps-google/plugin.css" rel="stylesheet" />
+    <script src="../assets/plugins/maps-google/plugin.js"></script>
+    <!-- Input Mask Plugin -->
+    <script src="./assets/plugins/input-mask/plugin.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
@@ -88,7 +105,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         <div>
           <h2>Mechatronics <br> Engineering</h2>
           <br>
-          <a href="#" class="btn btn-primary">
+          <a href="/mechatronics/index.php" class="btn btn-primary">
           Tap to vote
           </a>
         </div>
@@ -100,7 +117,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         <div>
           <h2>Artificial Intelligence & Data Science </h2>
           <br>
-          <a href="#" class="btn btn-primary">
+          <a href="/aids/index.php" class="btn btn-primary">
           Tap to vote
           </a>
         </div>        
@@ -113,7 +130,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         <div>
           <h2>Mechanical <br> Engineering</h2>
           <br>
-          <a href="#" class="btn btn-primary">
+          <a href="/mechanical/index.php" class="btn btn-primary">
           Tap to vote
           </a>          
         </div>
@@ -126,7 +143,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         <div>
           <h2>Electrical <br> Engineering</h2>
           <br>
-          <a href="#" class="btn btn-primary">
+          <a href="/elect/index.php" class="btn btn-primary">
           Tap to vote
           </a>
         </div>        
@@ -139,7 +156,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         <div>
           <h2>Civil <br> Engineering</h2>
           <br>
-          <a href="#" class="btn btn-primary">
+          <a href="/civil/index.php" class="btn btn-primary">
           Tap to vote
           </a>
         </div>

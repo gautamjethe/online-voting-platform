@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-5">
   <div class="container-fluid">
     <a class="navbar-brand" href="/"><img src="https://i.ibb.co/r2L55tc/vote.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
